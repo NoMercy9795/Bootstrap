@@ -11,15 +11,24 @@
 <body>
 	<div class="container">
 		
-		<button type="button" class="btn btn-lg">Basic</button>
-		<button type="button" class="btn btn-danger btn-lg">Danger</button>
-		<button type="button" class="btn btn-success btn-lg">Success</button>
-		<button type="button" class="btn btn-primary btn-lg">Primary</button>
-		<button type="button" class="btn btn-info btn-lg">Info</button>
-		<button type="button" class="btn btn-default btn-lg">Default</button>
-		<button type="button" class="btn btn-link btn-lg">Link</button><br>
-		<button type="button" class="btn btn-success btn-lg active">Success</button>
-		<button type="button" class="btn btn-danger btn-lg disabled">Danger</button><br>
+		<div class="btn-group " >
+			<button type="button" class="btn btn-primary btn-md">Sony</button>
+			<button type="button" class="btn btn-primary btn-md">Nokia</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary btn-md dropdown-toggle" data-toggle="dropdown">Samsung
+				</button>
+				<button type="button" class="btn btn-primary btn-md dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span></button>
+
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Samsung Pro</a></li>
+					<li><a href="#">Samsung Note</a></li>
+				</ul>
+			</div>
+			
+			
+		</div>
+		
 	</div>
 
 </body>
